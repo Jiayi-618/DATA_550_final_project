@@ -1,3 +1,6 @@
+install:
+	Rscript -e "renv::restore()"
+
 report.html: report.Rmd code/03_render_report.R derived_data/data_clean.rds figure/scatter_plot.png
 	Rscript code/03_render_report.R
 
