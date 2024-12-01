@@ -29,11 +29,4 @@ This project is designed to analyze and summarize demographic and clinical data,
 - Perform descriptive analyses and display key findings, including Table 1 and scatter plots.
 - Create a production-ready report for data analysis results.
 
----
 
-## Synchronize Package Environment
-
-To synchronize the package environment for this project, run the following command:
-
-```bash
-make install
